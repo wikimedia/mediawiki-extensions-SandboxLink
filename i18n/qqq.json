@@ -1,5 +1,5 @@
 {
-	"sandboxlink-desc": "{{desc|name=SandboxLink|url=http://www.mediawiki.org/wiki/Extension:SandboxLink}}",
+	"sandboxlink-desc": "{{desc|name=SandboxLink|url=https://www.mediawiki.org/wiki/Extension:SandboxLink}}",
 	"sandboxlink-subpage-name": "Name of the subpage where user's sandbox will be created. For example, 'sandbox' means that the link in personal tools menu will point to \"User:Example/sandbox\".",
 	"sandboxlink-portlet-label": "Label of the link in personal tools menu.",
 	"tooltip-pt-sandbox": "Tooltip of the link in personal tools menu.",
