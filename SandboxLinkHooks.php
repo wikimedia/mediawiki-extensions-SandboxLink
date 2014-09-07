@@ -41,7 +41,7 @@ class SandboxLinkHooks {
 
 		if ( $title->exists() && $title->isRedirect() ) {
 			$href = $title->getLocalURL( array( 'redirect' => 'no' ) );
-		} else if ( $title->exists() ) {
+		} elseif ( $title->exists() ) {
 			$href = $title->getLocalURL();
 		} else {
 			$query = array( 'action' => 'edit', 'redlink' => '1' );
