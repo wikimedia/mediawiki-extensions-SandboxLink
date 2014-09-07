@@ -16,6 +16,7 @@ $wgExtensionCredits['other'][] = array(
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:SandboxLink',
 	'descriptionmsg' => 'sandboxlink-desc',
+	'license-name' => 'MIT',
 );
 
 $wgMessagesDirs['SandboxLink'] = __DIR__ . '/i18n';
