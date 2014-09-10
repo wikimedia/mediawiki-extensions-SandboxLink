@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"sandboxlink-desc": "Agrega un enlace en la zona de pruebas del usuario al menú de herramientas personales",
+	"sandboxlink-subpage-name": "zona de pruebas",
+	"sandboxlink-portlet-label": "Zona de pruebas",
+	"tooltip-pt-sandbox": "Tu zona de pruebas"
+}

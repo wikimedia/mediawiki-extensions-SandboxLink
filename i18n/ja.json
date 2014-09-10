@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"sandboxlink-desc": "利用者の個人ツールメニューに個人サンドボックスへのリンクを追加する",
+	"sandboxlink-portlet-label": "サンドボックス",
+	"tooltip-pt-sandbox": "自分のサンドボックス"
+}
