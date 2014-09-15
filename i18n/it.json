@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"FRacco"
 		]
 	},
-	"sandboxlink-desc": "Aggiunge un collegamento nel menu strumenti alla propria sandbox",
+	"sandboxlink-desc": "Aggiunge un collegamento alla propria sandbox nel menu strumenti",
 	"sandboxlink-subpage-name": "sandbox",
 	"sandboxlink-portlet-label": "sandbox",
 	"tooltip-pt-sandbox": "La tua pagina delle prove"
