@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil"
+		]
+	},
+	"sandboxlink-desc": "Přidá odkaz na uživatelovo osobní pískoviště do nabídky osobních nástrojů",
+	"sandboxlink-subpage-name": "pískoviště",
+	"sandboxlink-portlet-label": "Pískoviště",
+	"tooltip-pt-sandbox": "Vaše pískoviště"
+}
