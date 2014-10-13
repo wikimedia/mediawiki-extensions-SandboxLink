@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Olion"
+		]
+	},
+	"sandboxlink-desc": "Додає посилання на особисту пісочницю користувача до меню особистих інструментів",
+	"sandboxlink-subpage-name": "пісочниця",
+	"sandboxlink-portlet-label": "Пісочниця",
+	"tooltip-pt-sandbox": "Ваша пісочниця"
+}
