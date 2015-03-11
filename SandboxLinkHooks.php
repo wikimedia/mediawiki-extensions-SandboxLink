@@ -63,7 +63,7 @@ class SandboxLinkHooks {
 			'id' => 'pt-sandbox',
 			'text' => $skin->msg( 'sandboxlink-portlet-label' )->text(),
 			'href' => $href,
-			'class' => $title->exists() ? false : 'new',
+			'class' => $title->isKnown() ? false : 'new',
 			'active' => $title->equals( $currentTitle ),
 		);
 	}
