@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Guycn2"
+			"Guycn2",
+			"Amire80"
 		]
 	},
-	"sandboxlink-desc": "הוספת קישור לארגז חול אישי של המשתמש לתפריט הכלים האישיים",
-	"sandboxlink-subpage-name": "ארגז חול",
-	"sandboxlink-portlet-label": "ארגז חול",
-	"tooltip-pt-sandbox": "ארגז החול שלך"
+	"sandboxlink-desc": "הוספת קישור לטיוטה האישית של המשתמש לתפריט הכלים האישיים",
+	"sandboxlink-subpage-name": "טיוטה",
+	"sandboxlink-portlet-label": "טיוטה",
+	"tooltip-pt-sandbox": "הטיוטה שלך"
 }
