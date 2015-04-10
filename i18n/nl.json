@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Mathonius"
 		]
 	},
-	"sandboxlink-subpage-name": "zandbak",
-	"sandboxlink-portlet-label": "Zandbak",
-	"tooltip-pt-sandbox": "Uw zandbak"
+	"sandboxlink-subpage-name": "Kladblok",
+	"sandboxlink-portlet-label": "Kladblok",
+	"tooltip-pt-sandbox": "Uw kladblok"
 }

@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Matma Rex"
+			"Matma Rex",
+			"NehalDaveND"
 		]
 	},
-	"sandboxlink-subpage-name": "प्रयोगपृष्ठम्"
+	"sandboxlink-subpage-name": "प्रयोगपृष्ठम्",
+	"sandboxlink-portlet-label": "प्रयोगपृष्ठम्"
 }

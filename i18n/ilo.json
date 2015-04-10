@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Matma Rex"
+			"Matma Rex",
+			"Lam-ang"
 		]
 	},
-	"sandboxlink-subpage-name": "pagipadasan"
+	"sandboxlink-desc": "Aginayon ti silpo iti personal a pagipadasan idiay pagpilian ti ramramit.",
+	"sandboxlink-subpage-name": "pagipadasan",
+	"sandboxlink-portlet-label": "Pagipadasan",
+	"tooltip-pt-sandbox": "Pagipadasam"
 }

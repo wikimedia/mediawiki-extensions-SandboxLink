@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Matma Rex"
+			"Matma Rex",
+			"Tlustulimu"
 		]
 	},
-	"sandboxlink-subpage-name": "provejo"
+	"sandboxlink-desc": "Aldoni ligilon al la persona provejo al la ilara menuo.",
+	"sandboxlink-subpage-name": "provejo",
+	"sandboxlink-portlet-label": "Provejo",
+	"tooltip-pt-sandbox": "Via provejo"
 }

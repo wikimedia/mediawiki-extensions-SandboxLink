@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Matma Rex"
+			"Matma Rex",
+			"IRTC1015"
 		]
 	},
 	"sandboxlink-subpage-name": "연습장",
-	"sandboxlink-portlet-label": "연습장"
+	"sandboxlink-portlet-label": "연습장",
+	"tooltip-pt-sandbox": "내 연습장"
 }
