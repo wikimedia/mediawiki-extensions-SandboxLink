@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Matma Rex"
+			"Matma Rex",
+			"زكريا"
 		]
 	},
-	"sandboxlink-subpage-name": "ملعب"
+	"sandboxlink-subpage-name": "ملعب",
+	"sandboxlink-portlet-label": "ملعب"
 }
