@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Matma Rex"
+			"Matma Rex",
+			"Asoxor"
 		]
 	},
-	"sandboxlink-subpage-name": "ئەزموون"
+	"sandboxlink-subpage-name": "خۆڵەپەتانێ",
+	"sandboxlink-portlet-label": "خۆڵەپەتانێ"
 }
