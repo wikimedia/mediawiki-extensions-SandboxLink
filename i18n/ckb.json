@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Matma Rex",
-			"Asoxor"
+			"Asoxor",
+			"Calak"
 		]
 	},
 	"sandboxlink-subpage-name": "خۆڵەپەتانێ",
-	"sandboxlink-portlet-label": "خۆڵەپەتانێ"
+	"sandboxlink-portlet-label": "خۆڵەپەتانێ",
+	"tooltip-pt-sandbox": "پەڕەی ئەزموونەکەت"
 }
