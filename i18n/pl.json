@@ -1,7 +1,11 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"The Polish"
+		]
+	},
 	"sandboxlink-desc": "Dodaje link do brudnopisu użytkownika do menu osobistego.",
 	"sandboxlink-subpage-name": "brudnopis",
 	"sandboxlink-portlet-label": "Brudnopis",
-	"tooltip-pt-sandbox": "Twój brudnopis"
+	"tooltip-pt-sandbox": "Mój brudnopis"
 }
