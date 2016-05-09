@@ -40,11 +40,11 @@ class SandboxLinkHooks {
 		}
 
 		if ( $title->exists() && $title->isRedirect() ) {
-			$href = $title->getLocalURL( array( 'redirect' => 'no' ) );
+			$href = $title->getLocalURL( [ 'redirect' => 'no' ] );
 		} elseif ( $title->exists() ) {
 			$href = $title->getLocalURL();
 		} else {
-			$query = array( 'action' => 'edit', 'redlink' => '1' );
+			$query = [ 'action' => 'edit', 'redlink' => '1' ];
 
 			$editintroMsg = $skin->msg( 'sandboxlink-editintro-pagename' )->inContentLanguage();
 			if ( !$editintroMsg->isDisabled() ) {
@@ -59,13 +59,13 @@ class SandboxLinkHooks {
 			$href = $title->getLocalURL( $query );
 		}
 
-		return array(
+		return [
 			'id' => 'pt-sandbox',
 			'text' => $skin->msg( 'sandboxlink-portlet-label' )->text(),
 			'href' => $href,
 			'class' => $title->isKnown() ? false : 'new',
 			'active' => $title->equals( $currentTitle ),
-		);
+		];
 	}
 
 	/**
@@ -106,7 +106,7 @@ class SandboxLinkHooks {
 			return true;
 		}
 
-		$newPersonalUrls = array();
+		$newPersonalUrls = [];
 		$done = false;
 
 		// Insert our link before the link to user preferences.
