@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Matma Rex",
-			"Obaid Raza"
+			"Obaid Raza",
+			"محمد افضل"
 		]
 	},
-	"sandboxlink-desc": "صارف کے ذاتی اوزار میں سے صارف کے ذاتی ریتخانہ میں ربط کا اضافہ کر دیتی ہے",
-	"sandboxlink-subpage-name": "ریتخانہ",
-	"sandboxlink-portlet-label": "ریتخانہ",
-	"tooltip-pt-sandbox": "آپ کا ریتخانہ"
+	"sandboxlink-desc": "صارف کے ذاتی اوزار میں سے صارف کے ذاتی مشق خانہ میں ربط کا اضافہ کر دیتی ہے",
+	"sandboxlink-subpage-name": "مشق خانہ",
+	"sandboxlink-portlet-label": "مشق خانہ",
+	"tooltip-pt-sandbox": "آپ کا مشق خانہ"
 }
