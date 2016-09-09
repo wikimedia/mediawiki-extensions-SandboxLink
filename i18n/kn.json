@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Matma Rex"
+			"Matma Rex",
+			"BHARATHESHA ALASANDEMAJALU"
 		]
 	},
-	"sandboxlink-portlet-label": "ನನ್ನ ಪ್ರಯೋಗಪುಟ"
+	"sandboxlink-subpage-name": "ಎನ್ನ ಬರವುದ ಕಳ",
+	"sandboxlink-portlet-label": "ಎನ್ನ ಬರವುದ ಕಳ",
+	"tooltip-pt-sandbox": "ಇರೇನಾ ಬರವುದ ಕಳ"
 }
