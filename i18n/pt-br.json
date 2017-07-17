@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"He7d3r",
-			"!Silent"
+			"!Silent",
+			"Felipe L. Ewald"
 		]
 	},
 	"sandboxlink-desc": "Adiciona um link para a página pessoal de testes do usuário no menu de ferramentas",
-	"sandboxlink-subpage-name": "Testes",
+	"sandboxlink-subpage-name": "testes",
 	"sandboxlink-portlet-label": "Testes",
 	"tooltip-pt-sandbox": "Sua página de testes"
 }
