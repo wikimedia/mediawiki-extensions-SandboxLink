@@ -73,7 +73,7 @@ class SandboxLinkHooks {
 	 *
 	 * Add the title of the page where the current user's sandbox is to link existence cache.
 	 *
-	 * @param Title[] $titles
+	 * @param Title[] &$titles
 	 * @param Skin $skin
 	 * @return bool true
 	 */
@@ -90,8 +90,8 @@ class SandboxLinkHooks {
 	 *
 	 * Possibly add a link to the page where the current user's sandbox is to personal tools menu.
 	 *
-	 * @param array $personalUrls
-	 * @param Title $title (unused)
+	 * @param array &$personalUrls
+	 * @param Title &$title (unused)
 	 * @param Skin $skin
 	 * @return bool true
 	 */
