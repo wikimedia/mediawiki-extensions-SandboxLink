@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amqui"
+			"Amqui",
+			"Benoit Rochon"
 		]
 	},
-	"sandboxlink-subpage-name": "ketcinate masinahikan"
+	"sandboxlink-subpage-name": "Kokwetcitasinahikan",
+	"sandboxlink-portlet-label": "Kokwetcitasinahikan",
+	"tooltip-pt-sandbox": "Ki kokwetcisinahikan"
 }
