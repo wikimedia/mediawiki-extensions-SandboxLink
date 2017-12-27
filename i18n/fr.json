@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Elodark",
-			"Ltrlg"
+			"Ltrlg",
+			"Benoit Rochon"
 		]
 	},
 	"sandboxlink-desc": "Ajoute un lien vers le brouillon de l’utilisateur dans le menu personnel",
-	"sandboxlink-subpage-name": "bac à sable",
-	"sandboxlink-portlet-label": "Bac à sable",
-	"tooltip-pt-sandbox": "Votre bac à sable"
+	"sandboxlink-subpage-name": "Brouillon",
+	"sandboxlink-portlet-label": "Brouillon",
+	"tooltip-pt-sandbox": "Votre brouillon"
 }
