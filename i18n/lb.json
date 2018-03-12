@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Les Meloures"
 		]
 	},
-	"sandboxlink-desc": "Setzt e Link, op dem Benotzer seng perséinlech Sandkëscht, am Benotzer säi Menü vun der Geschirkëscht dobäi",
+	"sandboxlink-desc": "Setzt am Menü vun der Geschirkëscht e Link op dem Benotzer seng perséinlech Sandkëscht derbäi",
 	"sandboxlink-subpage-name": "Sandkëscht",
 	"sandboxlink-portlet-label": "Sandkëscht",
 	"tooltip-pt-sandbox": "Är Sandkëscht"
