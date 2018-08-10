@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Matma Rex"
+			"Matma Rex",
+			"Saederup92"
 		]
 	},
 	"sandboxlink-subpage-name": "sandkasse",
-	"sandboxlink-portlet-label": "Sandkasse"
+	"sandboxlink-portlet-label": "Sandkasse",
+	"tooltip-pt-sandbox": "Din sandkasse"
 }
