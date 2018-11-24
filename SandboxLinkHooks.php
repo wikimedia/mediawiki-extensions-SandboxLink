@@ -108,18 +108,16 @@ class SandboxLinkHooks {
 		}
 
 		$newPersonalUrls = [];
-		$done = false;
 
 		// Insert our link before the link to user preferences.
 		// If the link to preferences is missing, insert at the end.
 		foreach ( $personalUrls as $key => $value ) {
 			if ( $key === 'preferences' ) {
 				$newPersonalUrls['sandbox'] = $link;
-				$done = true;
 			}
 			$newPersonalUrls[$key] = $value;
 		}
-		if ( !$done ) {
+		if ( !array_key_exists( 'sandbox', $newPersonalUrls ) ) {
 			$newPersonalUrls['sandbox'] = $link;
 		}
 
