@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Matma Rex"
+			"Matma Rex",
+			"Kareyac"
 		]
 	},
 	"sandboxlink-subpage-name": "Ավազարկղ",
-	"sandboxlink-portlet-label": "Սևագրություն"
+	"sandboxlink-portlet-label": "Ավազարկղ",
+	"tooltip-pt-sandbox": "Ձեր ավազարկղ"
 }
