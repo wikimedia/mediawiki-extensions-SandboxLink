@@ -13,7 +13,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"SandboxLinkHooks": "SandboxLinkHooks.php"
+		"SandboxLinkHooks": "includes/SandboxLinkHooks.php"
 	},
 	"Hooks": {
 		"SkinPreloadExistence": [
