@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Matma Rex"
+			"Matma Rex",
+			"Iwan Novirion"
 		]
 	},
+	"sandboxlink-desc": "Tambah pautan ka kotak kasiak paribadi pangguno pado menu di ateh",
 	"sandboxlink-subpage-name": "bak kasiak",
-	"sandboxlink-portlet-label": "Bak kasiak"
+	"sandboxlink-portlet-label": "Bak kasiak",
+	"tooltip-pt-sandbox": "Bak kasiak Sanak"
 }
