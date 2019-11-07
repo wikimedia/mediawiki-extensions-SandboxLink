@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Matma Rex",
-			"Teslaton"
+			"Teslaton",
+			"Luky001"
 		]
 	},
+	"sandboxlink-desc": "Pridá odkaz na používateľovo osobné pieskovisko do ponuky osobných nástrojov",
 	"sandboxlink-subpage-name": "pieskovisko",
 	"sandboxlink-portlet-label": "Pieskovisko",
 	"tooltip-pt-sandbox": "Vaše pieskovisko"
