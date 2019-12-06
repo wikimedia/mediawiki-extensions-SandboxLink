@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"sandboxlink-desc": "Kullanıcının kişisel sandbox'a kişisel araçlar menüsüne bir bağlantı ekler",
+	"sandboxlink-subpage-name": "sandbox",
+	"sandboxlink-portlet-label": "Sandbox",
+	"tooltip-pt-sandbox": "Sandbox'unuz"
+}
