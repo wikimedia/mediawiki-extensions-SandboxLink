@@ -29,7 +29,7 @@ class SandboxLinkHooks {
 	 * relative to current title and in current language.
 	 *
 	 * @param Skin $skin For context
-	 * @return array Link descriptor in a format accepted by PersonalUrls hook
+	 * @return array|null Link descriptor in a format accepted by PersonalUrls hook
 	 */
 	private static function makeSandboxLink( Skin $skin ) {
 		$currentTitle = $skin->getTitle();
