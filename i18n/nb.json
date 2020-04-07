@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jon Harald Søby",
-			"Jeblad"
+			"Jeblad",
+			"Jon Harald Søby"
 		]
 	},
 	"sandboxlink-desc": "Legger til en lenke til brukerens personlige sandkasse i menyen for personlige verktøy",

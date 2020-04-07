@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"He7d3r",
 			"!Silent",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"He7d3r"
 		]
 	},
 	"sandboxlink-desc": "Adiciona um link para a página pessoal de testes do usuário no menu de ferramentas",

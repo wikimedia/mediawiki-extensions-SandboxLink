@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Benoit Rochon",
 			"Elodark",
-			"Ltrlg",
-			"Benoit Rochon"
+			"Ltrlg"
 		]
 	},
 	"sandboxlink-desc": "Ajoute un lien vers le brouillon de l’utilisateur dans le menu personnel",

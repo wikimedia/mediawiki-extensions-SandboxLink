@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras",
 			"Jack who built the house",
-			"Mailman"
+			"Mailman",
+			"Okras"
 		]
 	},
 	"sandboxlink-desc": "Добавляет ссылку на пользовательскую песочницу в личное меню инструментов",

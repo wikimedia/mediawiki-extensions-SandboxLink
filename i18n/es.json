@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe",
-			"Eloy"
+			"Eloy",
+			"Macofe"
 		]
 	},
 	"sandboxlink-desc": "Agrega un enlace en el menú de herramientas personales a la zona de pruebas del usuario",
