@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Andriy.v",
 			"DDPAT",
 			"Olion",
 			"Piramidion"
@@ -8,6 +9,6 @@
 	},
 	"sandboxlink-desc": "Додає посилання на особисту чернетку користувача в меню особистих інструментів",
 	"sandboxlink-subpage-name": "пісочниця",
-	"sandboxlink-portlet-label": "Пісочниця",
+	"sandboxlink-portlet-label": "Чернетка",
 	"tooltip-pt-sandbox": "Ваша пісочниця"
 }
