@@ -4,11 +4,12 @@
 			"Andriy.v",
 			"DDPAT",
 			"Olion",
-			"Piramidion"
+			"Piramidion",
+			"Чорний Кіт"
 		]
 	},
 	"sandboxlink-desc": "Додає посилання на особисту чернетку користувача в меню особистих інструментів",
-	"sandboxlink-subpage-name": "пісочниця",
+	"sandboxlink-subpage-name": "Чернетка",
 	"sandboxlink-portlet-label": "Чернетка",
-	"tooltip-pt-sandbox": "Ваша пісочниця"
+	"tooltip-pt-sandbox": "Ваша чернетка"
 }
