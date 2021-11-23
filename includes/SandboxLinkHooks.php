@@ -64,7 +64,7 @@ class SandboxLinkHooks {
 			'text' => $skin->msg( 'sandboxlink-portlet-label' )->text(),
 			'href' => $href,
 			'class' => $title->exists() ? false : 'new',
-			'icon' => 'markup',
+			'icon' => 'sandbox',
 			'exists' => $title->exists(),
 			'active' => $title->equals( $currentTitle ),
 		];
