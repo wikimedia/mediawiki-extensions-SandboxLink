@@ -1,4 +1,10 @@
 <?php
+
+namespace MediaWiki\Extension\SandboxLink;
+
+use Skin;
+use Title;
+
 /**
  * Add a link to user's personal sandbox to personal tools menu.
  *
@@ -8,7 +14,7 @@
  * @license MIT
  */
 
-class SandboxLinkHooks {
+class Hooks {
 	/**
 	 * Return a Title for the page where the current user's sandbox is.
 	 *

@@ -12,15 +12,15 @@
 			"i18n"
 		]
 	},
-	"AutoloadClasses": {
-		"SandboxLinkHooks": "includes/SandboxLinkHooks.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\SandboxLink\\": "includes/"
 	},
 	"Hooks": {
 		"SkinPreloadExistence": [
-			"SandboxLinkHooks::onSkinPreloadExistence"
+			"MediaWiki\\Extension\\SandboxLink\\Hooks::onSkinPreloadExistence"
 		],
 		"PersonalUrls": [
-			"SandboxLinkHooks::onPersonalUrls"
+			"MediaWiki\\Extension\\SandboxLink\\Hooks::onPersonalUrls"
 		]
 	},
 	"config": {
