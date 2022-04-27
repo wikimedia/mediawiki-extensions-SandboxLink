@@ -7,6 +7,9 @@
 	"descriptionmsg": "sandboxlink-desc",
 	"license-name": "MIT",
 	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"MessagesDirs": {
 		"SandboxLink": [
 			"i18n"
@@ -28,8 +31,5 @@
 			"value": true
 		}
 	},
-	"manifest_version": 2,
-	"requires": {
-		"MediaWiki": ">= 1.29.0"
-	}
+	"manifest_version": 2
 }
