@@ -18,13 +18,15 @@
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\SandboxLink\\": "includes/"
 	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\SandboxLink\\Hooks",
+			"services": [ "MainConfig" ]
+		}
+	},
 	"Hooks": {
-		"SkinPreloadExistence": [
-			"MediaWiki\\Extension\\SandboxLink\\Hooks::onSkinPreloadExistence"
-		],
-		"PersonalUrls": [
-			"MediaWiki\\Extension\\SandboxLink\\Hooks::onPersonalUrls"
-		]
+		"SkinPreloadExistence": [ "main" ],
+		"PersonalUrls": [ "main" ]
 	},
 	"config": {
 		"SandboxLinkDisableAnon": {

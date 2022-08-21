@@ -2,6 +2,9 @@
 
 namespace MediaWiki\Extension\SandboxLink;
 
+use Config;
+use MediaWiki\Hook\PersonalUrlsHook;
+use MediaWiki\Hook\SkinPreloadExistenceHook;
 use Skin;
 use Title;
 
@@ -13,15 +16,27 @@ use Title;
  * @file
  * @license MIT
  */
+class Hooks implements
+	PersonalUrlsHook,
+	SkinPreloadExistenceHook
+{
+	/** @var bool */
+	private $disableAnon;
 
-class Hooks {
+	/**
+	 * @param Config $mainConfig
+	 */
+	public function __construct( Config $mainConfig ) {
+		$this->disableAnon = $mainConfig->get( 'SandboxLinkDisableAnon' );
+	}
+
 	/**
 	 * Return a Title for the page where the current user's sandbox is.
 	 *
 	 * @param Skin $skin For context
 	 * @return Title|null
 	 */
-	private static function getSandboxTitle( Skin $skin ) {
+	private function getSandboxTitle( Skin $skin ) {
 		$subpageMsg = $skin->msg( 'sandboxlink-subpage-name' )->inContentLanguage();
 		if ( $subpageMsg->isDisabled() ) {
 			return null;
@@ -37,10 +52,10 @@ class Hooks {
 	 * @param Skin $skin For context
 	 * @return array|null Link descriptor in a format accepted by PersonalUrls hook
 	 */
-	private static function makeSandboxLink( Skin $skin ) {
+	private function makeSandboxLink( Skin $skin ) {
 		$currentTitle = $skin->getTitle();
 
-		$title = self::getSandboxTitle( $skin );
+		$title = $this->getSandboxTitle( $skin );
 		if ( !$title ) {
 			return null;
 		}
@@ -85,8 +100,8 @@ class Hooks {
 	 * @param Skin $skin
 	 * @return bool true
 	 */
-	public static function onSkinPreloadExistence( &$titles, $skin ) {
-		$title = self::getSandboxTitle( $skin );
+	public function onSkinPreloadExistence( &$titles, $skin ) {
+		$title = $this->getSandboxTitle( $skin );
 		if ( $title ) {
 			$titles[] = $title;
 		}
@@ -101,17 +116,15 @@ class Hooks {
 	 * @param array &$personalUrls
 	 * @param Title &$title (unused)
 	 * @param Skin $skin
-	 * @return bool true
 	 */
-	public static function onPersonalUrls( &$personalUrls, &$title, $skin ) {
-		global $wgSandboxLinkDisableAnon;
-		if ( $wgSandboxLinkDisableAnon && $skin->getUser()->isAnon() ) {
-			return true;
+	public function onPersonalUrls( &$personalUrls, &$title, $skin ): void {
+		if ( $this->disableAnon && $skin->getUser()->isAnon() ) {
+			return;
 		}
 
-		$link = self::makeSandboxLink( $skin );
+		$link = $this->makeSandboxLink( $skin );
 		if ( !$link ) {
-			return true;
+			return;
 		}
 
 		$newPersonalUrls = [];
@@ -129,6 +142,5 @@ class Hooks {
 		}
 
 		$personalUrls = $newPersonalUrls;
-		return true;
 	}
 }
