@@ -3,8 +3,8 @@
 namespace MediaWiki\Extension\SandboxLink;
 
 use Config;
-use MediaWiki\Hook\PersonalUrlsHook;
 use MediaWiki\Hook\SkinPreloadExistenceHook;
+use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use Skin;
 use Title;
 
@@ -17,8 +17,8 @@ use Title;
  * @license MIT
  */
 class Hooks implements
-	PersonalUrlsHook,
-	SkinPreloadExistenceHook
+	SkinPreloadExistenceHook,
+	SkinTemplateNavigation__UniversalHook
 {
 	/** @var bool */
 	private $disableAnon;
@@ -113,11 +113,14 @@ class Hooks implements
 	 *
 	 * Possibly add a link to the page where the current user's sandbox is to personal tools menu.
 	 *
-	 * @param array &$personalUrls
-	 * @param Title &$title (unused)
 	 * @param Skin $skin
+	 * @param array &$links
+	 * @phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 	 */
-	public function onPersonalUrls( &$personalUrls, &$title, $skin ): void {
+	public function onSkinTemplateNavigation__Universal( $skin, &$links ): void {
+		// phpcs:enable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+		// using // phpcs:ignore after docblock doesn't work, it shows
+		// MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic
 		if ( $this->disableAnon && $skin->getUser()->isAnon() ) {
 			return;
 		}
@@ -128,7 +131,7 @@ class Hooks implements
 		}
 
 		$newPersonalUrls = [];
-
+		$personalUrls = $links['user-menu'] ?? [];
 		// Insert our link before the link to user preferences.
 		// If the link to preferences is missing, insert at the end.
 		foreach ( $personalUrls as $key => $value ) {
@@ -141,6 +144,6 @@ class Hooks implements
 			$newPersonalUrls['sandbox'] = $link;
 		}
 
-		$personalUrls = $newPersonalUrls;
+		$links['user-menu'] = $newPersonalUrls;
 	}
 }
