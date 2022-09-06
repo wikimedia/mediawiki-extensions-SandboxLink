@@ -26,7 +26,7 @@
 	},
 	"Hooks": {
 		"SkinPreloadExistence": [ "main" ],
-		"PersonalUrls": [ "main" ]
+		"SkinTemplateNavigation::Universal": [ "main" ]
 	},
 	"config": {
 		"SandboxLinkDisableAnon": {
