@@ -121,7 +121,7 @@ class Hooks implements
 		// phpcs:enable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 		// using // phpcs:ignore after docblock doesn't work, it shows
 		// MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic
-		if ( $this->disableAnon && $skin->getUser()->isAnon() ) {
+		if ( $this->disableAnon && !$skin->getUser()->isNamed() ) {
 			return;
 		}
 
