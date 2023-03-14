@@ -8,7 +8,7 @@
 	"license-name": "MIT",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.31.0"
+		"MediaWiki": ">= 1.39.0"
 	},
 	"MessagesDirs": {
 		"SandboxLink": [
@@ -21,12 +21,18 @@
 	"HookHandlers": {
 		"main": {
 			"class": "MediaWiki\\Extension\\SandboxLink\\Hooks",
-			"services": [ "MainConfig" ]
+			"services": [
+				"MainConfig"
+			]
 		}
 	},
 	"Hooks": {
-		"SkinPreloadExistence": [ "main" ],
-		"SkinTemplateNavigation::Universal": [ "main" ]
+		"SkinPreloadExistence": [
+			"main"
+		],
+		"SkinTemplateNavigation::Universal": [
+			"main"
+		]
 	},
 	"config": {
 		"SandboxLinkDisableAnon": {
