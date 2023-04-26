@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajiniyaz Nurniyazov",
 			"Nurlan"
 		]
 	},
-	"sandboxlink-portlet-label": "Qaralamay"
+	"sandboxlink-portlet-label": "Qaralama beti",
+	"tooltip-pt-sandbox": "Siziń qaralama betińiz"
 }
