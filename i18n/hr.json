@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Bugoslav",
-			"MaGa"
+			"MaGa",
+			"Ponor"
 		]
 	},
 	"sandboxlink-desc": "Dodaje poveznicu na osobnu suradničku stranicu za vježbanje u osobnim suradničkim karticama (izbornicima)",
 	"sandboxlink-subpage-name": "Pješčanik",
 	"sandboxlink-portlet-label": "Pješčanik",
-	"tooltip-pt-sandbox": "Vaš pješčanik"
+	"tooltip-pt-sandbox": "Vaša stranica za vježbanje"
 }
