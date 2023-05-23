@@ -5,6 +5,8 @@
 			"Nurlan"
 		]
 	},
-	"sandboxlink-portlet-label": "Qaralama beti",
+	"sandboxlink-desc": "Jeke qurallar menyusına paydalanıwshınıń jeke qaralama betiniń siltewin qosadı.",
+	"sandboxlink-subpage-name": "qaralama",
+	"sandboxlink-portlet-label": "Qaralama",
 	"tooltip-pt-sandbox": "Siziń qaralama betińiz"
 }
