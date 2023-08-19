@@ -5,8 +5,8 @@ namespace MediaWiki\Extension\SandboxLink;
 use Config;
 use MediaWiki\Hook\SkinPreloadExistenceHook;
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
+use MediaWiki\Title\Title;
 use Skin;
-use Title;
 
 /**
  * Add a link to user's personal sandbox to personal tools menu.
