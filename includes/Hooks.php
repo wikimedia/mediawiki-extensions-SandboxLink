@@ -37,6 +37,10 @@ class Hooks implements
 	 * @return Title|null
 	 */
 	private function getSandboxTitle( Skin $skin ) {
+		if ( $this->disableAnon && !$skin->getUser()->isNamed() ) {
+			return null;
+		}
+
 		$subpageMsg = $skin->msg( 'sandboxlink-subpage-name' )->inContentLanguage();
 		if ( $subpageMsg->isDisabled() ) {
 			return null;
@@ -121,10 +125,6 @@ class Hooks implements
 		// phpcs:enable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 		// using // phpcs:ignore after docblock doesn't work, it shows
 		// MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic
-		if ( $this->disableAnon && !$skin->getUser()->isNamed() ) {
-			return;
-		}
-
 		$link = $this->makeSandboxLink( $skin );
 		if ( !$link ) {
 			return;
