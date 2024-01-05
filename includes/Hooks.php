@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\SandboxLink;
 
-use Config;
+use MediaWiki\Config\Config;
 use MediaWiki\Hook\SkinPreloadExistenceHook;
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\Title\Title;
