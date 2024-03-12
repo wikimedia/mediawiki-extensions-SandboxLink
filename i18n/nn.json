@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"sandboxlink-desc": "Legg til ei lenkje til ei personleg brukarsandkasse i brukaren sin verktøymeny",
+	"sandboxlink-subpage-name": "sandkasse",
+	"sandboxlink-portlet-label": "Sandkasse",
+	"tooltip-pt-sandbox": "Sandkassa di"
+}
