@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"NMW03",
-			"Toghrul Rahimli"
+			"Toghrul Rahimli",
+			"Nemoralis"
 		]
 	},
+	"sandboxlink-desc": "İstifadəçinin şəxsi qaralamasına şəxsi alətlər menyusundan keçid əlavə edir",
 	"sandboxlink-subpage-name": "qaralama",
 	"sandboxlink-portlet-label": "Qaralama",
 	"tooltip-pt-sandbox": "Qaralama səhifəniz"
