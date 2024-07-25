@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"IJzeren Jan"
+		]
+	},
+	"sandboxlink-desc": "Dodavaje k menju orudij koristnika/koristnice link na jegovo/jejno vlastno pěskovišče",
+	"sandboxlink-subpage-name": "Pěskovišče",
+	"sandboxlink-portlet-label": "Pěskovišče",
+	"tooltip-pt-sandbox": "Vaše pěskovišče"
+}
