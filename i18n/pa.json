@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cabal",
 			"Kuldeepburjbhalaike"
 		]
 	},
-	"sandboxlink-desc": "ਨਿੱਜੀ ਟੂਲ ਮੀਨੂ ਵਿੱਚ ਵਰਤੋਂਕਾਰ ਦੇ ਨਿੱਜੀ ਕੱਚਾ ਖ਼ਾਕੇ ਲਈ ਇੱਕ ਲਿੰਕ ਜੋੜਦਾ ਹੈ",
+	"sandboxlink-desc": "ਨਿੱਜੀ ਸੰਦ ਮੀਨੂ ਵਿੱਚ ਵਰਤੋਂਕਾਰ ਦੇ ਨਿੱਜੀ ਕੱਚੇ ਖ਼ਾਕੇ ਲਈ ਇੱਕ ਕੜੀ ਜੋੜਦਾ ਏ",
 	"sandboxlink-subpage-name": "ਕੱਚਾ ਖ਼ਾਕਾ",
 	"sandboxlink-portlet-label": "ਕੱਚਾ ਖ਼ਾਕਾ",
 	"tooltip-pt-sandbox": "ਤੁਹਾਡਾ ਕੱਚਾ ਖ਼ਾਕਾ"
