@@ -3,9 +3,12 @@
 		"authors": [
 			"Amjad Khan",
 			"Baloch Khan",
-			"Af420"
+			"Af420",
+			"شاه زمان پټان"
 		]
 	},
-	"sandboxlink-subpage-name": "تمرین مخ",
-	"sandboxlink-portlet-label": "تمرین مخ"
+	"sandboxlink-desc": "د کارن ځاني ازمون‌مخ ته د ځاني‌توکو غوره‌نۍ وېبتړ ورگډوي",
+	"sandboxlink-subpage-name": "ازمون‌مخ",
+	"sandboxlink-portlet-label": "ازمون‌‌مخ",
+	"tooltip-pt-sandbox": "ستاسو ازمون‌مخ"
 }
