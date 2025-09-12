@@ -1,4 +1,12 @@
 <?php
+/**
+ * Add a link to user's personal sandbox to personal tools menu.
+ *
+ * https://www.mediawiki.org/wiki/Extension:SandboxLink
+ *
+ * @file
+ * @license MIT
+ */
 
 // phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
 
@@ -10,14 +18,6 @@ use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\Skin\Skin;
 use MediaWiki\Title\Title;
 
-/**
- * Add a link to user's personal sandbox to personal tools menu.
- *
- * https://www.mediawiki.org/wiki/Extension:SandboxLink
- *
- * @file
- * @license MIT
- */
 class Hooks implements
 	SkinPreloadExistenceHook,
 	SkinTemplateNavigation__UniversalHook
