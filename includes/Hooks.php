@@ -8,8 +8,6 @@
  * @license MIT
  */
 
-// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
-
 namespace MediaWiki\Extension\SandboxLink;
 
 use MediaWiki\Config\Config;
