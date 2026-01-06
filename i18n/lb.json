@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
-	"sandboxlink-desc": "Setzt am Menü vun der Geschierkëscht e Link op dem Benotzer seng perséinlech Sandkëscht derbäi",
-	"sandboxlink-subpage-name": "Sandkëscht",
-	"sandboxlink-portlet-label": "Sandkëscht",
-	"tooltip-pt-sandbox": "Är Sandkëscht"
+	"sandboxlink-desc": "Setzt am Menü vun der Geschierkëscht e Link op dem Benotzer seng perséinlech Sandkaul derbäi",
+	"sandboxlink-subpage-name": "Sandkaul",
+	"sandboxlink-portlet-label": "Sandkaul",
+	"tooltip-pt-sandbox": "Är Sandkaul"
 }
