@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
-	"sandboxlink-desc": "Dodaje link do korisničkog igrališta u meniju s osobnim alatkama",
+	"sandboxlink-desc": "Dodaje vezu do korisničkog igrališta u meniju s ličnim alatima",
 	"sandboxlink-subpage-name": "igralište",
 	"sandboxlink-portlet-label": "Igralište",
 	"tooltip-pt-sandbox": "Vaše igralište"
