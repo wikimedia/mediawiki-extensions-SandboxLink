@@ -88,7 +88,7 @@ class Hooks implements
 			'id' => 'pt-sandbox',
 			'text' => $skin->msg( 'sandboxlink-portlet-label' )->text(),
 			'href' => $href,
-			'class' => $title->exists() ? false : 'new',
+			'link-class' => $title->exists() ? false : 'new',
 			'icon' => 'sandbox',
 			'exists' => $title->exists(),
 			'active' => $title->equals( $currentTitle ),
