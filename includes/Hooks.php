@@ -126,20 +126,18 @@ class Hooks implements
 			return;
 		}
 
-		$newPersonalUrls = [];
 		$personalUrls = $links['user-menu'] ?? [];
-		// Insert our link before the link to user preferences.
-		// If the link to preferences is missing, insert at the end.
-		foreach ( $personalUrls as $key => $value ) {
-			if ( $key === 'preferences' ) {
-				$newPersonalUrls['sandbox'] = $link;
-			}
-			$newPersonalUrls[$key] = $value;
-		}
-		if ( !array_key_exists( 'sandbox', $newPersonalUrls ) ) {
-			$newPersonalUrls['sandbox'] = $link;
+
+		// Insert sandbox right after 'mytalk' if it exists, otherwise append to the end.
+		// Reference: T413413.
+		if ( isset( $personalUrls['mytalk'] ) ) {
+			$personalUrls = wfArrayInsertAfter( $personalUrls, [
+				'sandbox' => $link,
+			], 'mytalk' );
+		} else {
+			$personalUrls['sandbox'] = $link;
 		}
 
-		$links['user-menu'] = $newPersonalUrls;
+		$links['user-menu'] = $personalUrls;
 	}
 }
