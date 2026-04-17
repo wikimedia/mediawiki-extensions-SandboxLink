@@ -11,8 +11,8 @@
 namespace MediaWiki\Extension\SandboxLink;
 
 use MediaWiki\Config\Config;
-use MediaWiki\Hook\SkinPreloadExistenceHook;
-use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
+use MediaWiki\Skin\Hook\SkinPreloadExistenceHook;
+use MediaWiki\Skin\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\Skin\Skin;
 use MediaWiki\Title\Title;
 
