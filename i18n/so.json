@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"AhmedG612",
 			"Matma Rex"
 		]
 	},
+	"sandboxlink-desc": "Waxay ku dartaa isku xirka bacaadka gaarka ah ee isticmaalaha liiska qalabka gaarka ah",
 	"sandboxlink-subpage-name": "Bacaadka",
-	"sandboxlink-portlet-label": "Bacaadka"
+	"sandboxlink-portlet-label": "Bacaadka",
+	"tooltip-pt-sandbox": "Bacaadkaaga"
 }
