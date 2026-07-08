@@ -15,6 +15,7 @@ use MediaWiki\Skin\Hook\SkinPreloadExistenceHook;
 use MediaWiki\Skin\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\Skin\Skin;
 use MediaWiki\Title\Title;
+use Wikimedia\ArrayUtils\ArrayUtils;
 
 class Hooks implements
 	SkinPreloadExistenceHook,
@@ -131,7 +132,7 @@ class Hooks implements
 		// Insert sandbox right after 'mytalk' if it exists, otherwise append to the end.
 		// Reference: T413413.
 		if ( isset( $personalUrls['mytalk'] ) ) {
-			$personalUrls = wfArrayInsertAfter( $personalUrls, [
+			$personalUrls = ArrayUtils::insertAfter( $personalUrls, [
 				'sandbox' => $link,
 			], 'mytalk' );
 		} else {
